@@ -48,7 +48,7 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand("extension-manager.extension.view", async () => {
       vscode.commands.executeCommand(
         "workbench.extensions.search",
-        '@installed @category:"Custom Extension"'
+        '@installed @category:"Custom Extension" '
       );
     })
   );
